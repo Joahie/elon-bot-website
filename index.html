@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width">
+
+	<title>Elon Bot</title>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<script src="script.js">
+
+	</script>
+
+</head>
+
+<body>
+	<header id="home">
+		<nav>
+			<ul>
+
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#commands">Commands</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="https://discord.com/api/oauth2/authorize?client_id=824730559779045417&permissions=8&scope=bot" id="addbot"
+					 target="_blank">Add Bot </a></li>
+
+
+			</ul>
+		</nav>
+		<div class="elon-bot">
+			<br><br><br><br><br><br>
+    <h3 id = "quote">Manipulating the stock market, one tweet at a time</h3>
+    <h5 id = "musk"> - Elon Bot</h5>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+  </header>
+
+
+<section id = "about">
+  <h1>About</h1>
+  
+      <input type="image" src="images/botbut.png" onclick="firstButton()"/>
+  <input type="image" src="images/devbutton.png" onclick="secondButton()"/>
+
+<div id="myDIV"><h2><h2>The Bot</h2><br><p>Elon is a multipurpose bot providing many different features to increase server engagement and involvement. You can get a job, hobby, and buy powerups to get richer and more powerful, and eventually become Elon's kid. (Because the closest you can be to Elon's greatness is by being his relative). In other words, Elon Bot is Dank Memer but instead of insulting users it insults Elon's tweets.</p></div>
+
+<script>
+  function firstButton() {
+  var x = document.getElementById("myDIV");
+    x.innerHTML = "<h2>The Bot</h2><br><p>Elon is a multipurpose bot providing many different features to increase server engagement and involvement. You can get a job, hobby, and buy powerups to get richer and more powerful, and eventually become Elon's kid. (Because the closest you can be to Elon's greatness is by being his relative). In other words, Elon Bot is Dank Memer but instead of insulting users it insults Elon's tweets.</p>";
+  
+}
+  function secondButton() {
+  var x = document.getElementById("myDIV");
+    x.innerHTML = "<h2>The Developers</h2><br><p>We're a group of friends based in Washington who liked to code as a hobby. We regularly post on our <a href = 'https://github.com/Joshua-Zou/ElonBot'target = '_blank'>Githubs</a> and often check our <a href='https://discord.gg/jerYNWApvm' target = '_blank'>Discord accounts</a>.</p>";
+}
+</script>
+
+</section>   
+
+<section id = 'commands'>
+  <h1>Commands</h1>
+<div id = "buttons">
+  <input type="image" src="https://i.imgur.com/y7TVilP.png" onclick="firstCommandButton()"/>
+    <input type="image" src="https://i.imgur.com/D6AlNeL.png" onclick="secondCommandButton()"/>
+    <input type="image" src="https://i.imgur.com/DWX18Bl.png" onclick="thirdCommandButton()"/>
+    <input type="image" src="https://i.imgur.com/rIaYoSG.png" onclick="fourthCommandButton()"/>
+</div>
+    
+    
+<div id="commandDIV"><div id = 'dogecoin'><h2>Dogecoin Commands</h2></div><br><ul><li>el balance - See how much Dogecoin you have</li><li>el launder - Earns you money</li><li>el sue [@USER]- Sue one of your friends and earn Doge</li><li>el give - Be generous and give your friends Doge</li></ul></div>
+
+<script>
+  function firstCommandButton() {
+  var x = document.getElementById("commandDIV");
+    x.innerHTML = "<div id = 'dogecoin'><h2>Dogecoin Commands</h2></div><br><ul><li>el balance - See how much Dogecoin you have</li><li>el launder - Earns you money</li><li>el sue [@USER]- Sue one of your friends and earn Doge</li><li>el give - Be generous and give your friends Doge</li></ul>";
+}
+  function secondCommandButton() {
+  var x = document.getElementById("commandDIV");
+    x.innerHTML = "<div id = 'roles'><h2>Role Commands</h2></div><br><ul><li>el work - Do your job and hope you don't mess up</li><li>el jobs - Get a job from the job list</li><li>el hobbies - See a list of hobbies (they give you powerups)</li><li>el get hobby - Get a hobby (that's all there is to it)</li><li>el uber - Uber and earn some extra Doge (only possible with the Tesla item)</li><li>el rent - Rent out your house for Doge (only possible with the house item)</li></ul>";
+}
+  function thirdCommandButton() {
+  var x = document.getElementById("commandDIV");
+    x.innerHTML = "<div id = 'items'><h2>Item Commands</h2></div><br><ul><li>el work - Do your job and hope you don't mess up</li><li>el jobs - Get a job from the job list</li><li>el shop - See a list of items you can buy in the shop</li><li>el inventory items - See what items are in your inventory</li><li>el use [ITEM NAME] - Use items you buy from the store</li><li>el gift [@USER] [ITEM NAME] [AMOUNT] - Give items to your friends</li><li>el buy item [ITEM NAME] [AMOUNT] - Buy items from the store</li><li>el sell item [ITEM NAME] [AMOUNT] - Sell items that you bought from the store</li></ul>";
+  
+}
+  function fourthCommandButton() {
+  var x = document.getElementById("commandDIV");
+    x.innerHTML = "<div id = 'stocks'><h2>Stocks Commands</h2></div><br><ul><li>el stock list - List of available stocks</li><li>el trade [STOCK YOU'RE SELLING OR BUYING] [AMOUNT] - Buy and sell stocks</li><li>el inventory stocks - See a list of all the stocks you own</li></ul>";
+}
+</script>
+
+  </section>
+
+  <section id = 'contact'>
+    <h1>Contact</h1>
+    <p><a href="https://discord.gg/jerYNWApvm" class= 'cta-link' target = '_blank'>Join our Discord Community here</a></p>
+  </section>
+	<footer>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#commands">Commands</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li>&copy; Elon Bot 2021</li>
+		</ul>
+	</footer>
+</body>
+
+</html>
